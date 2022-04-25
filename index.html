@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FCC: Technical Documentation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+<nav id="navbar">
+    <header id="title">
+        <h1><a href="#">Python Documentation</a></h1>
+    </header>
+
+    <div id="menu-toggle" data-toggle="collapse"
+         data-target="navbar-links" type="button" onclick="menu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+
+    <div id="navbar-links">
+        <ul id="nav-list">
+            <li class="nav-item">
+                <a class='nav-link' href="#What_is_Python?">
+                    What is Python?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class='nav-link' href="#How_did_the_Python_language_come_about?">
+                    How did the Python language come about?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class='nav-link' href="#What_is_Python_for?_Some_specifications_of_the_language!">
+                    What is Python for? Some specifications of the language!
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class='nav-link' href="#Why_is_Python_so_highly_valued?_5_reasons_to_learn_it!">
+                    Why is Python so highly valued? 5 reasons to learn it!
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class='nav-link' href="#Hello_World">
+                    Hello World
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#What_is_a_variable_in_Python?">
+                    What is a variable in Python?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#What_are_primitive_variables?" class="nav-link">
+                    What are primitive variables?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#What_are_Built-Ins_variables?" class="nav-link">
+                    What are Built-Ins variables?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#What_are_the_data_types_in_Python?" class="nav-link">
+                    What are the data types in Python?
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Conditional_structures_in_Python:_if,_elif,_and_else" class="nav-link">
+                    Conditional structures in Python: if, elif, and else
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Returning_a_sequence_of_numbers:_Python_range_function" class="nav-link">
+                    Returning a sequence of numbers: Python range function
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Python_for_repetition_loop" class="nav-link">
+                    Python for repetition loop
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Python_while-repetition_loop" class="nav-link">
+                    Python while-repetition loop
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Storing_items_in_a_single_variable:_Python_list" class="nav-link">
+                    Storing items in a single variable: Python list
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Get_to_know_some_Python_string_methods" class="nav-link">
+                    Get to know some Python string methods
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Learn_about_class_methods" class="nav-link">
+                    Learn about class methods
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Get_to_Know_Instance_Methods" class="nav-link">
+                    Get to Know Instance Methods
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Reference" class="nav-link">
+                    Reference
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main id="main-doc">
+    <section id="What_is_Python?" class="main-section">
+        <header>
+            <h2>What is Python?</h2>
+        </header>
+        <p>
+            Python is an extremely simple and versatile programming language, because its syntax is modern and
+            straightforward, and it is designed to allow developers to write instructions with fewer lines of code.
+        </p>
+        <p>
+            In this case, because it is easy to understand, it was a language that gained popularity among companies due
+            to its lean code. In addition, it has a large amount of libraries available to assist in our daily lives,
+            and it has a large community of developers.
+        </p>
+        <p>
+            Got it, cool! I want to know more about this language, from its origin to the present day. Is this possible?
+            Sure, come on!
+        </p>
+    </section>
+
+    <section  id="How_did_the_Python_language_come_about?" class="main-section">
+        <header>
+            <h2>How did the Python language come about?</h2>
+        </header>
+        <p>The development of the Python language started in the late 1980s by Guido Van Rossum, while he was working at
+            Centrum Wiskunde & Informatica - CWI - in Amsterdam. His goal was to create a more efficient scripting
+            language capable of accessing the resources of the Amoeba operating system.</p>
+        <p>In 1994, the first version of the Python language appeared. The name chosen has no relation to the snake
+            species of the same name, although its logo is that of two intertwined snakes. Instead, the choice was in
+            function of a television show of the time created by a group of comedians called Monty Python.</p>
+        <p>Since then, the Python language has received several updates. It is open-source and available under the PSF
+            License Agreement, which is similar to the General Public License (GPL). It is currently at version 3.9.5
+            and you can download Python for free from the language's official homepage.</p>
+    </section>
+
+    <section id="What_is_Python_for?_Some_specifications_of_the_language!" class="main-section">
+        <header>
+            <h2>What is Python for? Some specifications of the language!</h2>
+        </header>
+        <p>Python language can be used to design the back-end of our application or be used for building artificial
+            intelligence. In addition, Python can also be used for data analysis.
+        </p>
+        <p>In other words, it is a server-side language for building the logic of an application. And so it is an
+            efficient language both for building small systems and for developing complex applications.</p>
+        <p>Here are some specifications of this language:</p>
+        <ul>
+            <li>
+                <p>Python language is multi-paradigm, which means that we can program based on different
+                    programming styles, such as functional, procedural, and object-oriented programming.</p>
+            </li>
+            <li>
+                <p>Python is a cross-platform language, as it has versions for several operating systems, including
+                    Windows, Linux, and macOS. In addition, it is maintained by the Python Software Foundation (PSF), a
+                    non-profit organization.</p>
+            </li>
+            <li>
+                <p>Python is an interpreted language since it does not generate executable files like C, for
+                    example. Instead, it contains an interpreter, which is responsible for translating the source code into
+                    machine language and thus executing the program.</p>
+            </li>
+            <li>
+                <p>In practice, the interpreter transforms the source code to byte code format, which corresponds
+                    to machine language or binary code, and sends it to an environment called PVM - Python Virtual Machine -
+                    being a Python virtual machine that contains the environment capable of executing the program.</p>
+            </li>    
+        </ul>
+        <p>It is important to say that there is a way to generate executable files from source code written in Python.
+            However, you need to use tools developed by third parties, such as Py2exe, and PyInstaller, among others,
+            which can be downloaded for free from the Internet.</p>
+    </section>
+
+    <section class="main-section" id="Why_is_Python_so_highly_valued?_5_reasons_to_learn_it!">
+        <header>
+            <h2>Why is Python so highly valued? 5 reasons to learn it!</h2>
+        </header>
+        <p>As we mentioned at the beginning of the text, the Python language ranks second in the world in preference.
+            Several factors contribute to this positive result. Check out why it is worth learning to program in this
+            language.</p>
+        <h3>1. it is easy to learn</h3>
+        <p>The Python language has a simple syntax that is as objective as possible. One example is that we do not need
+            to use semicolons at the end of each statement and braces to delimit the commands of repeat and conditional
+            structures, as happens in other programming languages.</p>
+        <h3>2. It is portable and cross-platform</h3>
+        <p>The Python language can be installed on different operating systems, such as Windows, Linux, and macOS. In
+            addition, there are portable distributions that can be used on flash drives, which is ideal to make life
+            easier for programmers in the application development phase.</p>
+        <h3>3. It is open source and free</h3>
+        <p>The Python language is open source, which means that you can download its source code written in C language
+            and make changes. You also do not have to pay for a license to use it. In addition, it contains numerous
+            free libraries and frameworks that you can use for additional features.</p>
+        <h3>4. It offers multiple development possibilities</h3>
+        <p>It is possible to develop different types of applications with Python, from commercial desktop systems to
+            more complex Machine Learning and Artificial Intelligence software. The libraries and frameworks available
+            for the language further expand the development possibilities.</p>
+        <p>One example is the Django framework, which is used to develop web applications. For all this breadth, it was
+            chosen first as the most desired programming language by programmers in the 2020 Stack Overflow survey.</p>
+        <h3>5. It is a "wild card" language</h3>
+        <p>The Python language is extremely powerful and offers a wide possibility for system development.</p>
+        <p>As a consequence, it expands the job opportunities for programmers, who can choose from different development
+            possibilities such as web applications. In addition, its syntax is simple and intuitive, which makes it easy
+            to learn.</p>
+
+    </section>
+
+    <section id="Hello_World" class="main-section">
+        <header>
+            <h2>Hello World</h2>
+        </header>
+        <p>Making your first "Hello World"!</p>
+        <p>Before we talk about the practical concepts of the Python language, let's take a look at how a simple "Hello
+            World" is made to start working with this language. </p>
+        <p>To give a "Hello World" and have it displayed on the screen, we only need one line of code. What? Exactly
+            that, just one line. To do this, you need to open your code editor, which can be pyCharm or Visual Studio
+            Code, and type the following command: </p>
+        <code>print("Hello World")</code>
+        <p>In this case, to run a file with the .py extension, you must open the command prompt on your machine and
+            navigate to where the created Python file is located.</p>
+    </section>
+
+    <section  id="What_is_a_variable_in_Python?" class="main-section">
+        <header>
+            <h2>What is a variable in Python?</h2>
+        </header>
+        <p>Before we talk about what is a variable in Python, it is important to remember its concept. In practice, a
+            variable is an addressable space in the computer's memory (RAM) that is allocated during program execution
+            to store a certain value that can be used several times in a program.</p>
+        <p>The contents stored in a variable can be of different data types, such as strings, integers, Boolean, etc.
+            One of the most important characteristics of variables in Python is that they indicate the reference to an
+            object, that is, any variable represents an object.</p>
+        <p>In other words, variables are like little boxes that hold information in the memory of our hardware. Each
+            variable would be a little box with its respective value contained in it. Here is an example:</p>
+        <code>
+            names = ['John', 'Mary', 'Peter']<br>
+            list_names = names<br>
+            list_names.append('Paula')<br>
+            <br>
+            print(list_names)<br>
+            #Result: ['John', 'Mary', 'Peter', 'Paula']<br>
+            <br>
+            print(names)<br>
+            #Result: ['John', 'Mary', 'Peter', 'Paula']<br>
+        </code>
+        <p>In the code above, we create a list called "names with 3 items. Next, we say that "the variable "list_names"
+            receives the values of "names". Finally, we display the contents of the two variables on the screen. Notice
+            that even without updating the contents of the variable "names", it reflects the changes made to
+            "list_names".</p>
+        <p>This is exactly because it stores the reference of the memory space in which the list was created. So when we
+            change the list to add one more element, all variables that point to this memory space will reflect this
+            update.</p>
+        <p>It is important to say that there are mutable data types, which accept change to their original contents, and
+            immutable data types, which allocate new memory space whenever a change is made. Thus, data of immutable
+            variables are sort of lost in memory until a resource called a collector, which works like a garbage
+            collector, cleans up the contents.</p>
+    </section>
+
+    <section id="What_are_primitive_variables?" class="main-section">
+        <header>
+            <h2>What are primitive variables?</h2>
+        </header>
+        <p>A primitive variable in Python means a representation of some concept in our everyday life, which can be
+            letters, numbers, and punctuation marks, among others. They are used to define the amount of memory that
+            will be allocated. </p>
+        <p>Let's look below at some examples of primitive variables:</p>
+        <h3>a) Integers</h3>
+        <p>The integer type represents non-decimal positive or negative numbers of unlimited size. For a variable to be
+            considered of type integer, it is enough to assign a value with these characteristics to it or to indicate
+            the type before assigning the value. Here is an example:</p>
+        <code>
+            a = 1<br>
+            b:int = 1<br>
+            <br>
+            print(type(a)) #Result: &lt;class 'int'&gt;<br>
+            print(type(b)) #Result: &lt;class 'int'&gt;
+        </code>
+        <h3>b) Float</h3>
+        <p>The type float, which is called the floating-point number, is also part of the numeric type and is
+            represented by numbers that contain one or more decimal places. Here is an example:</p>
+        <code>
+            i = 199.90<br>
+            print(i) #Result: 199.9<br>
+            print(type(i)) #Result: &lt;class 'float'&gt;
+        </code>
+        <h3>c) Bool</h3>
+        <p>The bool type is represented by one of two possible values, these are: True or False, which indicates true or
+            false. In addition to being declared in variables, bool type values are used to compare and evaluate
+            expressions. Check out the example below:</p>
+        <code>
+            i = 10<br>
+            result = (i == 10)<br>
+            print(result) #Result: True<br>
+            <br>
+            print(i == 10) #Result: True<br>
+            print(i >= 10) #Result: True<br>
+            print(i &lt; 10) #Result: False
+        </code>
+        <h3>d) String</h3>
+        <p>In Python, the string type works like an array of characters. Therefore, you can access each character
+            through its corresponding index. To declare a string, simply enter the content delimited by quotation marks
+            or double-quotes. Here is an example:</p>
+        <code>name = 'João da Silva'<br>
+            print(name) #Result: João da Silva<br>
+            print(type(name)) #Result: &lt;class 'str'&gt;
+        </code>
+    </section>
+
+    <section  id="What_are_Built-Ins_variables?" class="main-section">
+        <header>
+            <h2>What are Built-Ins variables?</h2>
+        </header>
+        <p>Built-ins are functions that are already built into the language by default, not requiring the import of
+            third-party files. </p>
+        <p>Let's look at some examples of these functions: </p>
+        <h3>(a) abs → return the absolute value of a number, that is, it will always return a positive number:</h3>
+        <code>
+            abs(-3.6)<br>
+            #Result: 3.6<br>
+            <br>
+            abs(-5.4)<br>
+            #Result: 5.4<br>
+            <br>
+            abs(-9)<br>
+            #Result: 9<br>
+            <br>
+            abs(87)<br>
+            #Result: 87
+        </code>
+        <h3>b) bin → performs the conversion of an integer number into a string in binary format:</h3>
+        <code>
+            bin(10)<br>
+            #'0b1010'
+        </code>
+        <h3>c) type → returns the data type of the value that was passed as parameter, in parentheses: </h3>
+        <code>
+            type(555)<br>
+            #class 'int'<br>
+            <br>
+            type('hello')<br>
+            #class 'str'<br>
+            <br>
+            type(2.8)<br>
+            #class 'float<br>
+            <br>
+            type([34.5])<br>
+            #class 'list'
+        </code>
+    </section>
+
+    <section id="What_are_the_data_types_in_Python?" class="main-section">
+        <header>
+            <h2>What are the data types in Python?</h2>
+        </header>
+        <p>In Python, it is not necessary to initialize a variable as in other programming languages. When you assign
+            any value to it, it will be identified according to the data types available in the language. </p>
+        <p>In addition to the variable types that were explained earlier, we have the following types: </p>
+        <ul>
+            <li>
+                <p>Long</p>
+            </li>
+        </ul>
+        <p>The long type belongs to the set of integer numeric types of unlimited size. In practice, this data type in
+            Python is only used up to version 2. x of the language. As of version 3. x, all variables declared as an
+            integer can have unlimited length.</p>
+        <ul>
+            <li>
+                <p>None Type</p>
+            </li>
+        </ul>
+        <p>The None type belongs to the NoneType class and is an object used to indicate null values. In practice, it is
+            a keyword that indicates, for example, that a certain variable does not contain any values. It is important
+            to say that None differs from an empty string, an integer equal to zero, or the boolean value False.</p>
+        <p>We can assign the value None to any variable to indicate that it has no specific value. It can also be used
+            to parse expressions. Take a look at the following code:</p>
+        <code>
+            print(type(None)) #Result: &lt;class 'NoneType'&gt;<br>
+            i = None<br>
+            a = i<br>
+            print(i == a) #Result: True<br>
+            print(i == None) #Result: True<br>
+            print(a == None) #Result: True<br>
+            <br>
+            print(type(a)) #Result: &lt;class 'NoneType'&gt;<br>
+            print(type(i)) #Result: &lt;class 'NoneType'&gt;<br>
+            print(i == False) #Result: False<br>
+            print(i == 0) #Result: False
+        </code>
+    </section>
+
+    <section id="Conditional_structures_in_Python:_if,_elif,_and_else" class="main-section">
+        <header>
+            <h2>Conditional structures in Python: if, elif, and else</h2>
+        </header>
+        <p>Every programming language needs to have conditional structures, which are commands used to check whether an
+            expression is true or false and execute certain blocks of code in each specific situation. Check out how the
+            if, elif, and else structures work in Python.</p>
+        <h3>if/else</h3>
+        <p>The Python if statement is used to check the condition of an expression and execute or not a certain block of
+            code. The if statement can be executed alone or in conjunction with the else statement, which makes it
+            possible to execute another set of code if the evaluated condition is false.</p>
+        <p>See the syntax in the following pseudocode:</p>
+        <code>
+            if &lt;condition_true&gt;:<br>
+            &emsp; &lt;code_block&gt;<br>
+            else:<br>
+            &emsp; &lt;other_code_block&gt;
+        </code>
+        <p>It is important to say that in Python there is no need to delimit the code block with the opening and closing
+            braces: "{" and "}", as happens in other programming languages. In practice, it is enough to add the colon
+            character ":" after the expression. </p>
+        <p>Here is an example algorithm of code with the Python if-else structure:</p>
+        <code>
+            name = 'John<br>
+            if name == 'John':<br>
+            &emsp; print(True)<br>
+            else:<br>
+            &emsp; print(False)<br>
+            #Result: True
+        </code>
+        <h3>if/elif/else</h3>
+        <p>There are situations when you might need to evaluate another condition if the first statement is false. In
+            this scenario, we can use the elif statement, which evaluates if another condition is true. See the syntax
+            below:</p>
+        <code>
+            if &lt;condition_true&gt;:<br>
+            &emsp; &lt;code_block&gt;<br>
+            elif &lt;new_condition_true&gt;:<br>
+            &emsp; &lt;new_code_block&gt;<br>
+            else:<br>
+            &emsp; &lt;other_code_block&gt;
+        </code>
+        <p>We can also use the else command to execute another code block if the condition is not satisfactory. See the
+            example code below:</p>
+        <code>
+            number = 20<br>
+            if numero &lt; 10:<br>
+            &emsp; print(True)<br>
+            elif number == 20:<br>
+            &emsp; print("The number is equal to 20")<br>
+            else:<br>
+            &emsp; print(False)<br>
+            #Result: The number is 20
+        </code>
+    </section>
+
+    <section id="Returning_a_sequence_of_numbers:_Python_range_function" class="main-section">
+        <header>
+            <h2>Returning a sequence of numbers: Python range function</h2>
+        </header>
+        <p>The Python range function is used to create a number sequence. We can determine what the start value will be,
+            the breakpoint, and the value used to increment the list, which by default is 1.</p>
+        <p>This is a useful feature to serve as a counter in repeat structures, for example, or to apply to variables
+            when we need to use sequential numbers as lists or tuples. Take a look at the code below:</p>
+        <code>
+            numbers = list(range(11))<br>
+            print(numbers)<br>
+            #Result: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br>
+            for i in range(0, 11, 2):<br>
+            &emsp; print(i)<br>
+            <br>
+            '''<br>
+            result:<br>
+            0<br>
+            2<br>
+            4<br>
+            6<br>
+            8<br>
+            10<br>
+            '''
+        </code>
+        <p>In the above code, we use the range() function to create a list with 10 elements, and also in a for
+            repetition structure to serve as a counter to print out the even numbers in the range 0 to 10.</p>
+    </section>
+
+    <section id="Python_for_repetition_loop" class="main-section">
+        <header>
+            <h2>Python for repetition loop</h2>
+        </header>
+        <p>The Python for loop is used to execute a given block of commands from the evaluation of an expression made in
+            iterable variables. It is worth noting that iterable elements are those that can be manipulated sequentially
+            by the __next__() and __iter__() functions, such as strings, lists, or tuples. See the syntax below:</p>
+        <code>
+            for &lt;element&gt; in &lt;element_set&gt;:<br>
+            &emsp; &lt;code_block&gt;<br>
+        </code>
+            See an example code:<br>
+        <code>
+            list_languages = ['Python', 'C', 'Java', 'JavaScript']<br>
+            for language in list_languages:<br>
+            &emsp; print(language)<br>
+            <br>
+            '''<br>
+            Result:<br>
+            Python<br>
+            C<br>
+            Java<br>
+            JavaScript<br>
+            '''
+        </code>
+    </section>
+
+    <section  id="Python_while-repetition_loop" class="main-section">
+        <header>
+            <h2>Python while-repetition loop</h2>
+        </header>
+        <p>The Python while repetition structure is used when you need to execute a block of code repeatedly as long as
+            a certain condition is true. When using this feature, however, attention must be paid to ensuring that there
+            is a breakpoint that indicates the end of loop execution. Here is the syntax:</p>
+        <code>
+            while &lt;true_condition&gt;:<br>
+            &emsp; &lt;code_block&gt;<br>
+            else:<br>
+            &emsp; &lt;other_code_block&gt;<br>
+        </code>
+            Check out some example code:
+        <code>
+            language = 'Python'<br>
+            i = 0<br>
+            while (i &lt; len(language)):<br>
+            &emsp;print(language[i])<br>
+            &emsp;i += 1<br>
+            <br>
+            '''<br>
+            Result:<br>
+            P<br>
+            y<br>
+            t<br>
+            h<br>
+            o<br>
+            n<br>
+            '''
+        </code>
+        <p>In the code above, we use the while loop to scroll through the contents of a string and display each
+            character on the screen. Notice that we use the variable "i" as a counter, as an index to access each
+            character of the string, and as a breakpoint for the while loop.</p>
+    </section>
+
+    <section id="Storing_items_in_a_single_variable:_Python_list" class="main-section">
+        <header>
+            <h2>Storing items in a single variable: Python list</h2>
+        </header>
+        <p>The Python list is a data structure used to store multiple values in a single variable. Its elements are
+            organized sequentially and accessed through the index corresponding to the item or through methods for
+            manipulating lists available in the language.</p>
+        <p>You can store several types of data in a list, such as strings, integers, bools, and even other lists. The
+            elements of a list are delimited by the bracket signs: "[" and "]". Here is an example:</p>
+        <code>
+            list_people = ['John', 23, ['Python', 'JavaScript']]<br>
+            print(list_people) #Result: ['John', 23, ['Python', 'JavaScript']]<br>
+            print(type(list_people)) #Result: &lt;class 'list'&gt;
+        </code>
+    </section>
+
+    <section id="Get_to_know_some_Python_string_methods" class="main-section">
+        <header>
+            <h2>Get to know some Python string methods</h2>
+        </header>
+        <p>The Python language offers several methods to facilitate the manipulation of variables of type string. It is
+            important to remember that the string is immutable, so any changes to its contents will be stored in a new
+            variable. Check out some of these methods below.</p>
+        <h3>a - Splitting strings into substrings and returning in lists: split</h3>
+        <p>The split() method is used to split a string into one or more substrings. The result is returned in list
+            form. By default, the separator is always considered the space character, however, we can define another
+            character, in addition to determining how many elements we want in the list. Here is an example:</p>
+        <code>
+            programming_languages = 'Python JavaScript C Ruby'<br>
+            list_languages = programming_languages.split()<br>
+            <br>
+            print(list_languages) #Result: ['Python', 'JavaScript', 'C', 'Ruby']<br>
+            print(type(list_languages)) #Result: &lt;class 'list'&gt;
+        </code>
+        <p>Notice that in the variable "list_languages" we split the string "programming_languages" with the split()
+            function and it separated the elements according to the space character found.</p>
+        <h3>b - Replacing substrings inside a string: python replace</h3>
+        <p>Another method available for string manipulation is Python replace(). In practice, it creates a new string
+            with the change indicated in the function, which has three parameters. Here is the syntax:</p>
+        <code>string.replace(old value, new value, count)</code>
+        <p>The parameters old value and new value are mandatory and indicate respectively the old value and the new
+            content. The count parameter is optional and indicates the number of times the change will be performed. See
+            an example:</p>
+        <code>
+            programming_languages = 'Python JavaScript C Ruby'<br>
+            languages = programming_languages.replace(' ' ', '-')<br>
+            print(languages) #Result: Python-JavaScript-C-Ruby<br>
+            print(type(languages)) #Result: &lt;class 'str'&gt;
+        </code>
+        <p>In the above code, we used the replace() function to replace the space character with the hyphen
+            character.</p>
+    </section>
+
+    <section id="Learn_about_class_methods" class="main-section">
+        <header>
+            <h2>Learn about class methods</h2>
+        </header>
+        <p>A class method is a method that belongs to the class as a whole. It does not need instances for it. In this
+            case, a class method has the @classmethod keyword as its declaration. Let us take a look at the following
+            example: </p>
+        <code>
+            class Greeting(object):<br>
+            &emsp; @classmethod<br>
+            &emsp;def hello(cls):<br>
+            &emsp;&emsp;print("Hello to %s" % cls.__name__)<br>
+            Greeting.hello()<br>
+            #"Hello to Greeting"
+        </code>
+        <p>All functions in Python have the word def, which is a reserved word for functions, just like functions in
+            JavaScript.</p>
+
+    </section>
+
+    <section id="Get_to_Know_Instance_Methods" class="main-section">
+        <header>
+            <h2>Get to Know Instance Methods</h2>
+        </header>
+        <p>Unlike class methods, instance methods need an instance to be invoked. This is a method that you will use a
+            lot in your studies:</p>
+        <code>
+            class Product(object):<br>
+            &emsp;def myProduct(self):<br>
+            &emsp;&emsp;print("Hello to %s" % self.__class__.__name__)<br>
+            Product.myProduct()<br>
+            <br>
+            #TypeError: hello() missing 1 required positional argument: 'self'
+        </code>
+        <p>In the above case, we see that the product function was invoked. </p>
+        <p>Getting to Know Static Methods</p>
+        <p>Static methods are similar to class methods, but they do not require a class object as a parameter. In this
+            case, a static method has the @staticmethod keyword as a declaration:</p>
+        <code>
+            class Greeting(object):<br>
+            &emsp;@staticmethod<br>
+            &emsp;def hello(cls):<br>
+            &emsp;&emsp;print("hello to %s" % cls.__name__)<br>
+
+            Greeting.hello()<br>
+            # TypeError: hello() missing 1 required positional argument: 'cls'
+        </code>
+    </section>
+
+    <section id="Reference" class="main-section">
+        <header>
+            <h2>Reference</h2>
+        </header>
+        <ul>
+            <li>
+                <p>All content in this page taken from <a href="https://blog.betrybe.com/python/#6"
+                                                                       target="_blank">Trybe</a></p>
+            </li>
+        </ul>
+    </section>
+</main>
+</body>
+</html>
