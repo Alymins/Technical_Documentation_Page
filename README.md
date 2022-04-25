@@ -7,8 +7,8 @@ Este é um projeto proposto pela freeCodeCamp no curso de Responsive Web Design.
 documentação tecnica da linguagem Python
 
 <div>
-    <img align="left" width="65%" height="550" src="img/FCC-Technical-Documentation.png" alt="Technical Doc">
-    <img width="30%" height="550" src="img/FCC-Technical-Documentation-Mobile.png" alt="Technical Doc mobile">
+    <img align="left" width="65%" height="450" src="img/FCC-Technical-Documentation.png" alt="Technical Doc">
+    <img width="30%" height="450" src="img/FCC-Technical-Documentation-Mobile.png" alt="Technical Doc mobile">
 </div>
 
 # Tecnologias Utilizadas
